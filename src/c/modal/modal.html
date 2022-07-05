@@ -1,5 +1,22 @@
 <template>
-    <img if:true={_src} src={_src} onerror={handleImageError} alt={alternativeText} title={alternativeText}></img>
-    <abbr if:true={showInitials} class={computedInitialsClass} title={alternativeText}>{initials}</abbr>
-    <c-icon if:true={showIcon} icon-name={fallbackIconName} alternative-text={alternativeText} title={alternativeText}></c-icon>
+    <div class="slds-grid">
+        <div>
+            <span>1</span>
+        </div>
+        <div>
+            <span>2</span>
+        </div>
+        <div>
+            <span>3</span>
+        </div>
+        <div>
+            <span>4</span>
+        </div>
+        <div class="slds-col_bump-left">
+            <span>5</span>
+        </div>
+        <div>
+            <span>6</span>
+        </div>
+    </div>
 </template>

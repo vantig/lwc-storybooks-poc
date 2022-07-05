@@ -1,1 +1,12 @@
 @import "@salesforce/slds/legacy";
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+.header{
+    background-color: black;
+}
+.body{
+    background-color: red;
+}
+
